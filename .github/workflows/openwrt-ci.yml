@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt0422
+name: OpenWrt0423
 
 on:
   push:
