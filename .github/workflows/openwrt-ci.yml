@@ -63,6 +63,7 @@ jobs:
           # git clone https://github.com/rosywrt/luci-theme-rosy.git
           git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git
           git clone https://github.com/fw876/helloworld.git
+          mv helloworld/luci-app-ssr-plus openwrt/package/lean/luci-app-ssr-plus
 
       - name: Update feeds
         run: |
